@@ -1,2 +1,2 @@
-# School-Website
+# lilaramschool
 My School Basic Website
