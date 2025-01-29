@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rupandehi Lilaram Neupane Secondary School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header Section with Logo -->
+    <header>
+        <div class="container center">
+            <a href="index.html">
+                <img src="Image5.png" alt="School Logo" class="logo">
+            </a>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar center">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">Why Lilaram?</a>
+        <a href="https://www.facebook.com/rupandehililaram.hss" target="_blank" class="nav-link">Facebook</a>
+        <a href="https://www.google.com/maps/place/Rupandehi+Lilaram+Neupane+Ma.Vi." target="_blank" class="nav-link">Location</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="intro-section center">
+            <h1>Rupandehi Lilaram Neupane Secondary School</h1>
+            <hr>
+            <img src="Image1.jpg" alt="School Image" class="main-image">
+            <p class="description">
+                <strong>Shree Rupandehi Lilaram Neupane Ma Vi.</strong> or RLNSS, previously known as <strong>Shree 5 Indra Rajya Laxmi Ma Vi.</strong>, is located in the heart of Bhairahawa. Established in 2012 BS, it has been recognized as the best government school of Siddharthanagar municipality. With over 2200 students every academic session, RLNSS has produced professionals in various sectors such as <u>Doctors, Engineers, Pilots, CAs, Bankers, Entrepreneurs, Industrialists, and Government employees</u> in its 67 years of excellence.
+            </p>
+        </section>
+
+        <!-- Social Media Section -->
+        <section class="social-section center">
+            <a href="https://www.facebook.com/rupandehililaram.hss" target="_blank" class="button">Follow us on Facebook</a>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section class="gallery-section">
+            <h2 class="center"><u>Some Captured Moments</u></h2>
+            <hr>
+            <div class="gallery">
+                <img src="Image2.jpg" alt="School Event 1" class="gallery-img" onclick="openLightbox(this)">
+                <img src="Image3.jpg" alt="School Event 2" class="gallery-img" onclick="openLightbox(this)">
+                <img src="Image4.jpg" alt="School Event 3" class="gallery-img" onclick="openLightbox(this)">
+            </div>
+        </section>
+         
+        <!-- Full-Screen Lightbox for Images -->
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="close">&times;</span>
+            <img id="lightbox-img" class="lightbox-content" alt="Lightbox Image">
+        </div>
+
+        <!-- Video Section -->
+        <section class="video-section center">
+            <h2>Proposal Video</h2>
+            <video src="video/video1.mp4" controls class="video" alt="Proposal Video"></video>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="center">
+        <p>&copy; 2024 Rupandehi Lilaram Neupane Secondary School. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Lightbox -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
